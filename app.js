@@ -15,8 +15,8 @@ var gainNode;
    var ossmeter=function(){
 
    mycanvas=document.getElementById('osimeter');
-   freqlabel=document.getElementById('Frequency');
-   vollabel=document.getElementById('Volume');
+   freqlabel=document.getElementById('frequency');
+   vollabel=document.getElementById('volume');
    //Creating a new Audio Context
    window.AudioContext = window.AudioContext || window.webkitAudioContext;
    myAudioContext = new window.AudioContext();
