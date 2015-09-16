@@ -20,17 +20,17 @@ var gainNode;
    //Declaring the Constructor 
    var ossmeter = function() {
 
-<<<<<<< HEAD
+
    mycanvas = document.getElementById('osimeter');
    freqlabel = document.getElementById('frequency');
    vollabel = document.getElementById('volume');
      
      
-=======
+
    mycanvas=document.getElementById('osimeter');
    freqlabel=document.getElementById('frequency');
    vollabel=document.getElementById('volume');
->>>>>>> origin/gh-pages
+
    //Creating a new Audio Context
    window.AudioContext = window.AudioContext || window.webkitAudioContext;
    myAudioContext = new window.AudioContext();
@@ -123,10 +123,6 @@ return lowNote + noteOffset;
 
    //Initializing the page
    window.onload = function() {
-<<<<<<< HEAD
+    
     var oossmeter = new ossmeter();
    } 
-=======
-   	var oossmeter = new ossmeter();
-   } 
->>>>>>> origin/gh-pages
